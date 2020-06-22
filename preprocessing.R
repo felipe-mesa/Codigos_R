@@ -1,6 +1,6 @@
 ###IMPORTAR DATOS####
 #Importar set de datos
-dataset <- read.csv('Data.csv')
+dataset = read.csv('Data.csv')
 #Hacer un subset
 dataset = dataset[, 2:3]
 
@@ -46,7 +46,3 @@ test_set = subset(dataset, split == FALSE)
 #Recordar, en R los indices parten de 1 y no 0
 training_set[, 2:3] = scale(training_set[, 2:3])
 test_set[, 2:3] = scale(test_set[, 2:3])
-
-
-
-
