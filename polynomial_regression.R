@@ -1,5 +1,5 @@
 #Importar set de datos
-dataset <- read.csv('Position_Salaries.csv')
+dataset = read.csv('Position_Salaries.csv')
 #Quitamos las columnas que no sirven
 dataset = dataset[2:3]
 
